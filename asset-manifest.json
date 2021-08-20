@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/BPMS/static/css/main.a8d5d244.chunk.css",
-    "main.js": "/BPMS/static/js/main.961bf03e.chunk.js",
-    "main.js.map": "/BPMS/static/js/main.961bf03e.chunk.js.map",
-    "runtime-main.js": "/BPMS/static/js/runtime-main.3e0340c2.js",
-    "runtime-main.js.map": "/BPMS/static/js/runtime-main.3e0340c2.js.map",
-    "static/js/2.d0be3200.chunk.js": "/BPMS/static/js/2.d0be3200.chunk.js",
-    "static/js/2.d0be3200.chunk.js.map": "/BPMS/static/js/2.d0be3200.chunk.js.map",
-    "static/js/3.1a510aa5.chunk.js": "/BPMS/static/js/3.1a510aa5.chunk.js",
-    "static/js/3.1a510aa5.chunk.js.map": "/BPMS/static/js/3.1a510aa5.chunk.js.map",
+    "main.css": "/BPMS/static/css/main.a482cd0e.chunk.css",
+    "main.js": "/BPMS/static/js/main.4ac2ffce.chunk.js",
+    "main.js.map": "/BPMS/static/js/main.4ac2ffce.chunk.js.map",
+    "runtime-main.js": "/BPMS/static/js/runtime-main.87acf4e7.js",
+    "runtime-main.js.map": "/BPMS/static/js/runtime-main.87acf4e7.js.map",
+    "static/js/2.1981de96.chunk.js": "/BPMS/static/js/2.1981de96.chunk.js",
+    "static/js/2.1981de96.chunk.js.map": "/BPMS/static/js/2.1981de96.chunk.js.map",
+    "static/js/3.d076aa4e.chunk.js": "/BPMS/static/js/3.d076aa4e.chunk.js",
+    "static/js/3.d076aa4e.chunk.js.map": "/BPMS/static/js/3.d076aa4e.chunk.js.map",
     "index.html": "/BPMS/index.html",
-    "static/css/main.a8d5d244.chunk.css.map": "/BPMS/static/css/main.a8d5d244.chunk.css.map",
-    "static/js/2.d0be3200.chunk.js.LICENSE.txt": "/BPMS/static/js/2.d0be3200.chunk.js.LICENSE.txt",
+    "static/css/main.a482cd0e.chunk.css.map": "/BPMS/static/css/main.a482cd0e.chunk.css.map",
+    "static/js/2.1981de96.chunk.js.LICENSE.txt": "/BPMS/static/js/2.1981de96.chunk.js.LICENSE.txt",
     "static/media/Almarcraft470View1.804c4d8c.jpg": "/BPMS/static/media/Almarcraft470View1.804c4d8c.jpg",
     "static/media/Almarcraft470View2.9dd33e33.jpg": "/BPMS/static/media/Almarcraft470View2.9dd33e33.jpg",
     "static/media/Almarcraft590cab.5a68bd5f.jpg": "/BPMS/static/media/Almarcraft590cab.5a68bd5f.jpg",
@@ -54,9 +54,9 @@
     "static/media/youtube.ca7eb8fd.svg": "/BPMS/static/media/youtube.ca7eb8fd.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.3e0340c2.js",
-    "static/js/2.d0be3200.chunk.js",
-    "static/css/main.a8d5d244.chunk.css",
-    "static/js/main.961bf03e.chunk.js"
+    "static/js/runtime-main.87acf4e7.js",
+    "static/js/2.1981de96.chunk.js",
+    "static/css/main.a482cd0e.chunk.css",
+    "static/js/main.4ac2ffce.chunk.js"
   ]
 }

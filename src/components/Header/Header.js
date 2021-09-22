@@ -39,9 +39,10 @@ const Header = () => {
     ]
 
     const languages = [
-        {language: 'Русский', lng: 'ru'},
+        {language: 'English', lng: 'en'},
         {language: 'Latviski', lng: 'lv'},
-        {language: 'English', lng: 'en'}
+        {language: 'Русский', lng: 'ru'}
+        
     ]
     const handleLanguage = (language, lng) => {
         dispatch(setLanguage(language))

@@ -12,8 +12,8 @@ i18next
     ru: ru,
     lv: lv
   },
-  lng: 'ru',
-  fallbackLng: 'ru',
+  lng: 'en',
+  fallbackLng: 'en',
   interpolation: {escapeValue: false}
 });
 

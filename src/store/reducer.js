@@ -1,7 +1,7 @@
 import { SET_LANGUAGE } from './actions';
 
 const initialState = {
-    language: 'Русский'
+    language: 'English'
 };
 
 const languageReducer = (state = initialState, action) => {

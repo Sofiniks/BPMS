@@ -155,7 +155,7 @@ const BoatDesc = ({item}) => {
                         <div className={styles.desc_element}>
                             <h4>{i18next.t('length')}</h4>
                             <p>{item && item.main.length} {i18next.t('m')}</p>
-                            <p>{item.main.ftLength && i18next.t('ftLength')}</p>
+                            <p>{item && item.main.ftLength && i18next.t('ftLength')}</p>
                         </div>
                         <div className={styles.desc_element}>
                             <h4>{i18next.t('width')}</h4>

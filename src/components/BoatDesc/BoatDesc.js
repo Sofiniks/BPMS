@@ -16,7 +16,7 @@ const BoatDesc = ({item}) => {
         }
     }, [item])
     const techDetails = readyModelsState && [
-        {title: i18next.t('length'), value: `${readyModelsState.main.length} ${i18next.t('m')}`},
+        {title: i18next.t('length'), value: `${readyModelsState.main.length} ${i18next.t('m')} ${readyModelsState.main.ftLength && i18next.t('ftLength')}`},
         {title: i18next.t('width'), value: `${readyModelsState.main.width} ${i18next.t('m')}`},
         {title: i18next.t('numberOfPassengers'), value: readyModelsState.main.passengers},
         {title: i18next.t('engine'), value: readyModelsState.main.engine},
@@ -27,7 +27,7 @@ const BoatDesc = ({item}) => {
         {title: i18next.t('deck'), value: readyModelsState.main.deck && i18next.t('aluminium')},
         {title: i18next.t('fuelTank'), value: readyModelsState.main.fuelTank === "yes" ? i18next.t('yes') : i18next.t('byRequest')},
         {title: i18next.t('inboard'), value: `${readyModelsState.main.inboard} ${i18next.t('mm')}`},
-        {title: i18next.t('totalLength'), value: `${readyModelsState.main.totalLength} ${i18next.t('m')}`},
+        {title: i18next.t('totalLength'), value: `${readyModelsState.main.totalLength} ${i18next.t('m')} ${readyModelsState.main.ftLength && i18next.t('ftLength')}`},
         {title: i18next.t('weight'), value: `${readyModelsState.main.weight} ${i18next.t('kg')}`},
         {title: i18next.t('loadCapacity'), value: `${readyModelsState.main.capacity} ${i18next.t('kg')}`},
         {title: i18next.t('approval'), value: readyModelsState.main.approval},
@@ -155,6 +155,7 @@ const BoatDesc = ({item}) => {
                         <div className={styles.desc_element}>
                             <h4>{i18next.t('length')}</h4>
                             <p>{item && item.main.length} {i18next.t('m')}</p>
+                            <p>{item.main.ftLength && i18next.t('ftLength')}</p>
                         </div>
                         <div className={styles.desc_element}>
                             <h4>{i18next.t('width')}</h4>

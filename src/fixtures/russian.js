@@ -101,6 +101,7 @@ let ru = {
     mm: "мм",
     m: "м",
     kg: "кг",
+    ftLength: "",
 
     aluminium: "Алюминий",
     polycarbonatMonolit: "Поликарбонатный монолит",

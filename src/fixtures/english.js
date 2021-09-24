@@ -104,6 +104,7 @@ let en = {
     mm: "mm",
     m: "m",
     kg: "kg",
+    ftLength: "(20 ft)",
 
     almarcraft590: "Almarcraft 590",
     almarcraft590Desc: "Our model of aluminum boat for fishing and sports is an ideal choice for fishermen with friends and families who want to enjoy not only fishing, but also water sports or skiing.",

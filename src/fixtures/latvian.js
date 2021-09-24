@@ -101,6 +101,7 @@ let lv = {
     mm: "mm",
     m: "m",
     kg: "kg",
+    ftLength: "",
 
     aluminium: "Alumīnijs",
     polycarbonatMonolit: "Monolītais polikarbonāts",

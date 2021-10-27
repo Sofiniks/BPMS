@@ -21,7 +21,7 @@ const Home = (props) => {
             behavior: "auto",
         });
     };
-    console.log(props.match.url);
+
     const scroll = () => {
         if(props.match.url === '/catalogue') {
             scrollTo(catalogRef)

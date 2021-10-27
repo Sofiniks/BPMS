@@ -51,7 +51,7 @@ const Header = () => {
 
     const languageItems = languages.map((item, index) => {
         return (
-            <li onClick={() => handleLanguage(item.language, item.lng)}>
+            <li onClick={() => handleLanguage(item.language, item.lng)} key={index}>
                 {item.language}
             </li>
         )

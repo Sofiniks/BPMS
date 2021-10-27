@@ -1,5 +1,4 @@
 import React, {useState} from 'react';
-import axios from 'axios';
 import styles from './ContactUs.module.scss';
 import {useMediaQuery} from 'react-responsive';
 import i18next from '../../fixtures/i18next';
@@ -14,16 +13,22 @@ const ContactUs = ({contactRef}) => {
     const GOOGLE_FORM_URL = "https://docs.google.com/forms/u/0/d/e/1FAIpQLSc893qm2MIGNwGzcMpxeQLebiMbkXw3-1qtg8t2BMeK5Wdv_g/formResponse";
 
     const handleSubmit = () => {
-            setToggleModal(true);
+        setToggleModal(true);
+        setTimeout(window.location.reload.bind(window.location), 10000);
+    }
+
+    const handleModalClose = () => {
+        setToggleModal(false);
+        window.location.reload.bind(window.location)();
     }
 
     return (
         <div className={styles.contact}>
-            {toggleModal && <div className={styles.contact_overlay} onClick={() => setToggleModal(false)}></div>}
+            {toggleModal && <div className={styles.contact_overlay} onClick={handleModalClose}></div>}
             {toggleModal && <div className={styles.contact_modal}>
                 <div className={styles.modal}>
                     <div className={styles.modal_cross}>
-                        <img src={Cross} alt="cross" onClick={() => setToggleModal(false)}/>
+                        <img src={Cross} alt="cross" onClick={handleModalClose}/>
                     </div>
                     <h3>{i18next.t('messageSent')}</h3>
                     <div className={styles.modal_img}>
@@ -33,7 +38,7 @@ const ContactUs = ({contactRef}) => {
                         {i18next.t('messageReceived')}
                     </p>
                     <div className={styles.modal_button}>
-                        <button onClick={() => setToggleModal(false)}>OK</button>
+                        <button onClick={handleModalClose}>OK</button>
                     </div>
                 </div>
             </div>}

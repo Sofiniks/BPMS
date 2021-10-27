@@ -18,8 +18,6 @@ const BoatHero = ({item}) => {
     }, [item, readyModelsState])
     const handleLoad = () => {
         setLoading(false);
-        console.log('loaded');
-        console.log(loading);
     }
 
     const title = readyModelsState?.main.title === 'almarcraft590' ? i18next.t('almarcraft590') :

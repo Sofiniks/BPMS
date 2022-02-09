@@ -1,11 +1,11 @@
 import Almacraft470View1 from '../assets/Almarcraft470View1.jpg';
 import Almacraft470View2 from '../assets/Almarcraft470View2.jpg';
-import Alm590View1 from '../assets/alm590-1.jpg';
-import Alm590View2 from '../assets/alm590-2.jpg';
-import Alm590View3 from '../assets/alm590-3.jpg';
-import Alm590View4 from '../assets/alm590-4.jpg';
-import Alm590View5 from '../assets/alm590-5.jpg';
-import Alm590View6 from '../assets/alm590-6.jpg';
+import Alm595View1 from '../assets/alm590-1.jpg';
+import Alm595View2 from '../assets/alm590-2.jpg';
+import Alm595View3 from '../assets/alm590-3.jpg';
+import Alm595View4 from '../assets/alm590-4.jpg';
+import Alm595View5 from '../assets/alm590-5.jpg';
+import Alm595View6 from '../assets/alm590-6.jpg';
 import Alm590Cab from '../assets/Almarcraft590cab.jpg';
 import Targa4 from '../assets/targa4.jpg';
 import Targa5 from '../assets/targa5.jpg';
@@ -21,14 +21,15 @@ import BoatVideo from '../assets/videoplayback.mp4';
 import i18n from 'i18next';
 
 export const readyModels = [
-    {   main: {
-            title: 'almarcraft590',
-            desc: 'almarcraft590',
+    {
+        main: {
+            title: 'almarcraft595',
+            desc: 'almarcraft595',
             metal: 'Aluminium',
             motor: '50-115 hp',
             fuelTank: 'by request',
-            picture: Alm590View4,
-            short_link: 'almarcraft590',
+            picture: Alm595View4,
+            short_link: 'almarcraft595',
             length: '5,92',
             ftLength: true,
             width: '2,22',
@@ -75,19 +76,20 @@ export const readyModels = [
             active: false,
             content: null
         },
-        additional: 'almarcraft590',
-        pictures: [Alm590View1, Alm590View2, Alm590View4, Alm590View5, Alm590View3, Alm590View6],
+        additional: 'almarcraft595',
+        pictures: [Alm595View1, Alm595View2, Alm595View4, Alm595View5, Alm595View3, Alm595View6],
         video: BoatVideo,
         certification: true
     },
-     {   main: {
-            title: 'almarcraft590targa',
-            desc: 'almarcraft590targa',
+    {
+        main: {
+            title: 'almarcraft595targa',
+            desc: 'almarcraft595targa',
             metal: 'Aluminium',
             motor: '50-115 hp',
             fuelTank: 'by request',
             picture: TargaMain,
-            short_link: 'almarcraft590targa',
+            short_link: 'almarcraft595targa',
             length: '5,92',
             ftLength: true,
             width: '2,22',
@@ -135,7 +137,7 @@ export const readyModels = [
             active: false,
             content: true
         },
-        additional: 'almarcraft590targa',
+        additional: 'almarcraft595targa',
         pictures: [Targa4, Targa5, Targa6, Targa7, Targa8, Targa9, Targa10, Targa11],
         video: null,
         certification: true
@@ -143,7 +145,8 @@ export const readyModels = [
 ]
 
 export const futureModels = [
-    {   main: {
+    {
+        main: {
             title: 'almarcraft470',
             desc: 'almarcraft470',
             metal: 'Aluminium',
@@ -196,7 +199,8 @@ export const futureModels = [
         video: null,
         certification: true
     },
-    {   main: {
+    {
+        main: {
             title: 'almarcraft590cab',
             metal: '-',
             motor: '-',

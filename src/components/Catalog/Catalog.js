@@ -1,20 +1,20 @@
 import React from 'react';
-import {useMediaQuery} from 'react-responsive';
+import { useMediaQuery } from 'react-responsive';
 import i18next from '../../fixtures/i18next';
-import {useTranslation} from 'react-i18next';
-import {Link} from 'react-router-dom';
+import { useTranslation } from 'react-i18next';
+import { Link } from 'react-router-dom';
 import styles from './Catalog.module.scss';
-import {readyModels, futureModels} from "../../fixtures/data";
+import { readyModels, futureModels } from "../../fixtures/data";
 import Draft from '../../assets/draw.jpg';
 
-const Catalog = ({catalogRef}) => {
-    const {t} = useTranslation();
-    const isTablet = useMediaQuery({maxWidth: 1023});
+const Catalog = ({ catalogRef }) => {
+    const { t } = useTranslation();
+    const isTablet = useMediaQuery({ maxWidth: 1023 });
     const individual = [
         {
             number: '1',
             title: i18next.t('ourProjectOurProduction'),
-            desc:  i18next.t('ourProjectOurProductionDesc')
+            desc: i18next.t('ourProjectOurProductionDesc')
         },
         {
             number: '2',
@@ -27,33 +27,33 @@ const Catalog = ({catalogRef}) => {
             desc: i18next.t('ourProjectYourProductionDesc')
         },
     ]
-    
+
     const individualCards = individual.map((item, index) => {
         return (
             <li key={index}>
-               <div className={styles.individual_card}>
-                   <div className={styles.individual_title}>
-                       <div className={styles.individual_number}>{item.number}</div>
-                       <h3>{item.title}</h3>
-                   </div>
-                   <div className={styles.individual_desc}>
-                       <p>{item.desc}</p>
-                   </div>
-               </div> 
+                <div className={styles.individual_card}>
+                    <div className={styles.individual_title}>
+                        <div className={styles.individual_number}>{item.number}</div>
+                        <h3>{item.title}</h3>
+                    </div>
+                    <div className={styles.individual_desc}>
+                        <p>{item.desc}</p>
+                    </div>
+                </div>
             </li>
         )
     })
 
     const readyModelsItems = readyModels.map((item, index) => {
-        const title = item?.main.title === 'almarcraft590' ? i18next.t('almarcraft590') :
-        item?.main.title === 'almarcraft590targa' ? i18next.t('almarcraft590withTarga') :
-        item?.main.title === 'almarcraft470' ? i18next.t('almarcraft470') : 
-        i18next.t('almarcraft590withCabin');
+        const title = item?.main.title === 'almarcraft595' ? i18next.t('almarcraft595') :
+            item?.main.title === 'almarcraft595targa' ? i18next.t('almarcraft595withTarga') :
+                item?.main.title === 'almarcraft470' ? i18next.t('almarcraft470') :
+                    i18next.t('almarcraft590withCabin');
         return (
             <li key={index}>
                 <div className={styles.menu_item}>
                     <div className={styles.menu_image}>
-                        <img src={item.main.picture} alt="boat"/>
+                        <img src={item.main.picture} alt="boat" />
                     </div>
                     <div className={styles.menu_info}>
                         <h3>{title}</h3>
@@ -72,15 +72,15 @@ const Catalog = ({catalogRef}) => {
     })
 
     const futureModelsItems = futureModels.map((item, index) => {
-        const title = item?.main.title === 'almarcraft590' ? i18next.t('almarcraft590') :
-        item?.main.title === 'almarcraft590targa' ? i18next.t('almarcraft590withTarga') :
-        item?.main.title === 'almarcraft470' ? i18next.t('almarcraft470') : 
-        i18next.t('almarcraft590withCabin');
+        const title = item?.main.title === 'almarcraft595' ? i18next.t('almarcraft595') :
+            item?.main.title === 'almarcraft595targa' ? i18next.t('almarcraft595withTarga') :
+                item?.main.title === 'almarcraft470' ? i18next.t('almarcraft470') :
+                    i18next.t('almarcraft590withCabin');
         return (
             <li key={index}>
                 <div className={styles.menu_item}>
                     <div className={styles.menu_image}>
-                        <img src={item.main.picture} alt="boat"/>
+                        <img src={item.main.picture} alt="boat" />
                     </div>
                     <div className={styles.menu_info}>
                         <h3>{title}</h3>
@@ -128,12 +128,12 @@ const Catalog = ({catalogRef}) => {
                             <ul>{individualCards}</ul>
                         </div>
                         <div className={styles.individual_img}>
-                            <img src={Draft} alt="draft"/>
+                            <img src={Draft} alt="draft" />
                         </div>
                     </div> :
                         <div className={styles.individual_content}>
                             <div className={styles.individual_img}>
-                                <img src={Draft} alt="draft"/>
+                                <img src={Draft} alt="draft" />
                             </div>
                             <div className={styles.individual_cards}>
                                 <ul>{individualCards}</ul>

@@ -57,8 +57,9 @@ let en = {
     contactsInLatvia: "Contacts in Latvia",
     contactsInNorway: "Contacts in Norway",
     contactsInFinland: "Contacts in Finland",
+    contactsInSweden: "Contacts in Sweden",
 
-    yes:  "Yes",
+    yes: "Yes",
     byRequest: "By request",
 
     technicalDetails: "Technical details of",
@@ -106,13 +107,13 @@ let en = {
     kg: "kg",
     ftLength: "(20 ft)",
 
-    almarcraft590: "Almarcraft 590",
-    almarcraft590Desc: "Our model of aluminum boat for fishing and sports is an ideal choice for fishermen with friends and families who want to enjoy not only fishing, but also water sports or skiing.",
-    almarcraft590Add: "At the request of the customer, the engine is installed (components for the engine can be ordered independently or sent to the customer) and the necessary components (throttle mounting, start key, tachometer, tilt indicator)",
+    almarcraft595: "Almarcraft 595",
+    almarcraft595Desc: "Our model of aluminum boat for fishing and sports is an ideal choice for fishermen with friends and families who want to enjoy not only fishing, but also water sports or skiing.",
+    almarcraft595Add: "At the request of the customer, the engine is installed (components for the engine can be ordered independently or sent to the customer) and the necessary components (throttle mounting, start key, tachometer, tilt indicator)",
 
-    almarcraft590withTarga: "Almarcraft 590 with targa",
-    almarcraft590withTargaDesc: "Equipment, decoration and details make each Almarcraft boat unique, but the durable hull remains unchanged. The fields of application are numerous, and we produce not only pleasure and fishing boats, but also boats for professional use.",
-    almarcraft590withTargaAdd: "At the request of the customer, the engine is installed (components for the engine can be ordered independently or sent to the customer) and the necessary components (throttle mounting, start key, tachometer, tilt indicator)",
+    almarcraft595withTarga: "Almarcraft 595 with targa",
+    almarcraft595withTargaDesc: "Equipment, decoration and details make each Almarcraft boat unique, but the durable hull remains unchanged. The fields of application are numerous, and we produce not only pleasure and fishing boats, but also boats for professional use.",
+    almarcraft595withTargaAdd: "At the request of the customer, the engine is installed (components for the engine can be ordered independently or sent to the customer) and the necessary components (throttle mounting, start key, tachometer, tilt indicator)",
 
     almarcraft470: "Almarcraft 470",
     almarcraft470Desc: "The Almarcraft 470 boat is perfect for both fishing and family holidays. It can be used not only in open water, but also in inland waters. At this moment, the certification process is underway.",

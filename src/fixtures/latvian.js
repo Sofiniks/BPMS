@@ -51,13 +51,14 @@ let lv = {
     surname: "Uzvārds",
     emailAndPhone: "E-pasts vai tālruņa numurs",
     message: "Ziņojums ",
-    send: "Nosūtīt", 
+    send: "Nosūtīt",
 
     webDevelopment: "Mājas lapu izstrāde",
     contactsInLatvia: "Kontakti Latvijā",
     contactsInNorway: "Kontakti Norvēģijā",
     contactsInFinland: "Kontakti Somijā",
-    
+    ContactsInSweden: "Kontakti Zviedrijā",
+
     yes: "Jā",
     byRequest: "Pēc pieprasījuma",
 
@@ -106,13 +107,13 @@ let lv = {
     aluminium: "Alumīnijs",
     polycarbonatMonolit: "Monolītais polikarbonāts",
 
-    almarcraft590: "Almarcraft 590",
-    almarcraft590Desc: "Mūsu alumīnija laivas modelis, makšķerēšanai un sportam - lieliska izvēle makšķerniekiem un viņu draugiem un ģimenēm, kas vēlas baudīt ne tikai makšķerēšanu, bet arī nodarboties ar ūdens sporta veidiem vai slēpot.",
-    almarcraft590Add: "Pēc pasūtītāja velmēm tiek uzstādīts dzinējs (dzinēju sastāvdaļas var pasūtīt patstāvīgi vai nosūtīt pasūtītājam) un nepieciešamās sastāvdaļas (stiprinājums droseli, atslēga, tahometrs,  slīpumu indikators)",
+    almarcraft595: "Almarcraft 595",
+    almarcraft595Desc: "Mūsu alumīnija laivas modelis, makšķerēšanai un sportam - lieliska izvēle makšķerniekiem un viņu draugiem un ģimenēm, kas vēlas baudīt ne tikai makšķerēšanu, bet arī nodarboties ar ūdens sporta veidiem vai slēpot.",
+    almarcraft595Add: "Pēc pasūtītāja velmēm tiek uzstādīts dzinējs (dzinēju sastāvdaļas var pasūtīt patstāvīgi vai nosūtīt pasūtītājam) un nepieciešamās sastāvdaļas (stiprinājums droseli, atslēga, tahometrs,  slīpumu indikators)",
 
-    almarcraft590withTarga: "Almarcraft 590 ar dugu",
-    almarcraft590withTargaDesc: "Aprīkojums, apdare un detaļas padara katru Almarcraft laivu unikālu, bet izturīgs korpuss paliek nemainīgs. Pielietojums ir daudzveidīgs un mēs ražojam ne tikai pastaigu un zvejnieku laivas, bet arī laivas profesionālai lietošanai.",
-    almarcraft590withTargaAdd: "Pēc pasūtītāja velmēm tiek uzstādīts dzinējs (dzinēju sastāvdaļas var pasūtīt patstāvīgi vai nosūtīt pasūtītājam) un nepieciešamās sastāvdaļas (stiprinājums droseli, atslēga, tahometrs,  slīpumu indikators)",
+    almarcraft595withTarga: "Almarcraft 595 ar dugu",
+    almarcraft595withTargaDesc: "Aprīkojums, apdare un detaļas padara katru Almarcraft laivu unikālu, bet izturīgs korpuss paliek nemainīgs. Pielietojums ir daudzveidīgs un mēs ražojam ne tikai pastaigu un zvejnieku laivas, bet arī laivas profesionālai lietošanai.",
+    almarcraft595withTargaAdd: "Pēc pasūtītāja velmēm tiek uzstādīts dzinējs (dzinēju sastāvdaļas var pasūtīt patstāvīgi vai nosūtīt pasūtītājam) un nepieciešamās sastāvdaļas (stiprinājums droseli, atslēga, tahometrs,  slīpumu indikators)",
 
     almarcraft470: "Almarcraft 470",
     almarcraft470Desc: "Laiva Almarcraft 470 lieliski piemērota makšķerēšanai un ģimenes atpūtai. Var izmantot ne tikai atklātajā ūdenī, bet arī iekšējos ūdeņos. Šobrīd iziet sertifikācijas procesu.",
@@ -125,6 +126,6 @@ let lv = {
     boatUnderDevelopmentDesc: "Šobrīd laiva ir izstrādes stadijā, tehniskie dati un fotogrāfijas tiks pievienoti vēlāk, kad laiva sāks iziet sertifikāciju",
     orangeBannerText: "Vēršam uzmanību, ka šis modelis joprojām iziet sertifikāciju un ļoti drīz būs pieejams. Lai iegūtu vairāk informācijas, lūdzu, sazinieties ar mums."
   }
-}; 
+};
 
 export default lv;

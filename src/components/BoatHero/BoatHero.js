@@ -1,18 +1,18 @@
-import React, {useEffect, useState} from 'react';
-import {Link} from 'react-router-dom';
+import React, { useEffect, useState } from 'react';
+import { Link } from 'react-router-dom';
 import styles from './BoatHero.module.scss';
 import Header from "../Header/Header";
 import Logo from "../../assets/logo.svg";
-import {useTranslation} from 'react-i18next';
+import { useTranslation } from 'react-i18next';
 import i18next from "../../fixtures/i18next";
 
 
-const BoatHero = ({item}) => {
-    const {t} = useTranslation(); 
+const BoatHero = ({ item }) => {
+    const { t } = useTranslation();
     const [readyModelsState, setReadyModelsState] = useState(null);
     const [loading, setLoading] = useState(true);
     useEffect(() => {
-        if(item) {
+        if (item) {
             setReadyModelsState(item)
         }
     }, [item, readyModelsState])
@@ -20,20 +20,20 @@ const BoatHero = ({item}) => {
         setLoading(false);
     }
 
-    const title = readyModelsState?.main.title === 'almarcraft590' ? i18next.t('almarcraft590') :
-    readyModelsState?.main.title === 'almarcraft590targa' ? i18next.t('almarcraft590withTarga') :
-    readyModelsState?.main.title === 'almarcraft470' ? i18next.t('almarcraft470') : 
-    i18next.t('almarcraft590withCabin');
+    const title = readyModelsState?.main.title === 'almarcraft595' ? i18next.t('almarcraft595') :
+        readyModelsState?.main.title === 'almarcraft595targa' ? i18next.t('almarcraft595withTarga') :
+            readyModelsState?.main.title === 'almarcraft470' ? i18next.t('almarcraft470') :
+                i18next.t('almarcraft590withCabin');
 
-    const desc = readyModelsState?.main.desc === 'almarcraft590' ? i18next.t('almarcraft590Desc') :
-    readyModelsState?.main.title ==='almarcraft590targa' ? i18next.t('almarcraft590withTargaDesc') :
-    readyModelsState?.main.title === 'almarcraft470' ? i18next.t('almarcraft470Desc') : 
-    i18next.t('almarcraft590withCabinDesc');
+    const desc = readyModelsState?.main.desc === 'almarcraft595' ? i18next.t('almarcraft595Desc') :
+        readyModelsState?.main.title === 'almarcraft595targa' ? i18next.t('almarcraft595withTargaDesc') :
+            readyModelsState?.main.title === 'almarcraft470' ? i18next.t('almarcraft470Desc') :
+                i18next.t('almarcraft590withCabinDesc');
 
     const LoaderComponent = (
-        <div style={{zIndex: 9, height: "1000vh", display: "flex", alignItems: "flex-start", background: '#1d2025', width: "100%"}}>
-            <div style={{position: 'ŗelative', top: 0, left: 0, zIndex: 10, height: '100vh', background: '#1d2025', display: 'flex', justifyContent: "center", alignItems: "center", fontSize: "24px", flexDirection: "column", width: "100%"}}>
-                <img src={Logo} alt="logo" style={{marginBottom: 15}}/>
+        <div style={{ zIndex: 9, height: "1000vh", display: "flex", alignItems: "flex-start", background: '#1d2025', width: "100%" }}>
+            <div style={{ position: 'ŗelative', top: 0, left: 0, zIndex: 10, height: '100vh', background: '#1d2025', display: 'flex', justifyContent: "center", alignItems: "center", fontSize: "24px", flexDirection: "column", width: "100%" }}>
+                <img src={Logo} alt="logo" style={{ marginBottom: 15 }} />
                 Loading...
             </div>
         </div>
@@ -41,17 +41,17 @@ const BoatHero = ({item}) => {
 
     return (
         <div className={styles.hero}
-             style={readyModelsState && !readyModelsState.video ? {
-                 backgroundImage: `url(${readyModelsState && readyModelsState.main.picture})`,
-                 backgroundRepeat: 'no-repeat',
-                 backgroundSize: 'cover'
-             } : undefined} >
+            style={readyModelsState && !readyModelsState.video ? {
+                backgroundImage: `url(${readyModelsState && readyModelsState.main.picture})`,
+                backgroundRepeat: 'no-repeat',
+                backgroundSize: 'cover'
+            } : undefined} >
             {/* {!readyModelsState?.video || (readyModelsState?.video && !loading) ? <Header/> : null} */}
             <Header />
             {readyModelsState && readyModelsState.video ?
                 <video autoPlay loop muted className={styles.video} playsInline src={readyModelsState && readyModelsState.video} onPlay={handleLoad}>
-                <source src={readyModelsState && readyModelsState.video} type="video/mp4"/>
-            </video> : null}
+                    <source src={readyModelsState && readyModelsState.video} type="video/mp4" />
+                </video> : null}
             {readyModelsState?.video && loading && LoaderComponent}
             <div className={styles.hero_container}>
                 <div className={styles.hero_text}>

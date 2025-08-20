@@ -21,12 +21,6 @@ const Footer = () => {
             contacts: i18next.t('contactsInLatvia')
         },
         {
-            // street: 'Jaunā iela 74, LV-3401, Liepāja, Latvija',
-            phone: '+47 456 66 111 (Vlad Misko)',
-            email: 'bpm_s@inbox.lv',
-            contacts: i18next.t('contactsInNorway')
-        },
-        {
             // street: `Jaunā iela 74,LV-3401, Liepāja, Latvija`,
             phone: '+358 442550505 (Jaakko Jätinvuori)',
             email: 'bpm_s@inbox.lv',
